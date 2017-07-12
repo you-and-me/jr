@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/**********init*****************/
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: '黑体', Hiragino Sans GB, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #878787;
+  -webkit-touch-callout: inherit;
+  -webkit-user-select: auto;
+  background-color: #fff;
+}
+.clearb:after {
+  clear: both;
+  overflow: hidden;
+  display: block;
+  height: 0px;
+  visibility: hidden;
+  border: 0px;
+  content: ' ';
+}
+
+/********main***********/
+#pt-main{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  overflow: hidden;
+  background-image: url(../images/page-2-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#pt-main .wrapper {
+  background-size: 100% auto;
+}
+#pt-main .ani_1 {
+  width: 57.2%;
+  max-width: 429px;
+  height: auto;
+  margin-left: 6.53%;
+  margin-top: 5.73%;
+}
+#pt-main .ani_2 {
+  margin-left: 6.53%;
+  margin-top: 12%;
+  font-size: 14px;
+  color: #00254b;
+  font-weight: normal;
+}
+#pt-main .time_doc1 , #pt-main .time_doc2, #pt-main .time_doc3  {
+  position: absolute;
+  left: 23.3%;
+  top: 0px;
+  margin-top: 34.77%;
+  font-size: 48px;
+  font-weight: bold;
+  color: #e84715;
+}
+#pt-main .time_doc2 {
+  left: 46.9%;
+}
+#pt-main .time_doc3 {
+  left: 70.5%;
+}
+#pt-main .dash {
+  width: 18%;
+  position: absolute;
+  left: 5.6%;
+  top: 0;
+  margin-top: 34.47%;
+  padding-top: 22.27%;
+  background: url(../images/page-2-timeBg.png) left top no-repeat;
+  background-size: 100% 100%;
+}
+#pt-main .dash.hours_dash {
+  left: 29.2%;
+}
+#pt-main .dash.minutes_dash {
+  left: 52.8%;
+}
+#pt-main .dash.seconds_dash {
+  left: 76.4%;
+}
+#pt-main .dash_title {
+  width: 10.1%;
+  font-size: 12px;
+  color: #aeaeae;
+  text-align: center;
+  padding: 1.53% 0;
+  border-top: 1px dashed #bfbfbf;
+  position: absolute;
+  left: 9.6%;
+  top: 0px;
+  margin-top: 49.2%;
+}
+#pt-main .dash_title.hours_title {
+  left: 33.2%;
+}
+#pt-main .dash_title.minutes_title {
+  left: 56.8%;
+}
+#pt-main .dash_title.seconds_title {
+  left: 80.4%;
+}
+#pt-main .digit{
+  font-size: 48px;
+  font-weight: bold;
+  color: #e84715;
+  position: absolute;
+  top: 0;
+  margin-top: 35.1%;
+  text-align: center;
+  width: 13.6%;
+}
+#pt-main .days_digit {
+  left: 7.87%;
+}
+#pt-main .hours_digit {
+  left: 31.47%;
+}
+#pt-main .minutes_digit {
+  left: 55.07%;
+}
+#pt-main .seconds_digit {
+  left: 78.67%;
+}
+#pt-main .ani_3 {
+  width: 56.27%;
+  max-width: 422px;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  margin-left: -28.13%;
+  margin-top: 62.7%;
+}
+#pt-main .ani_4 {
+  width: 51.2%;
+  max-width: 384px;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  margin-left: -25.6%;
+  margin-top: 83.2%;
+}
